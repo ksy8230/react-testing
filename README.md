@@ -21,4 +21,5 @@
 
 ### 도움 받은 링크들
 - cra + ts 환경 세팅 : https://howdy-mj.me/typescript/cra-typescript-eslint-prettier/
+- *eslint가 작동하고 있는 상태에서 prettier도 적용이 된다.
 
