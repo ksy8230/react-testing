@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import AddButton from '../TodoButton/AddButton';
+import TodoButton from '../TodoButton/TodoButton';
 
 interface TodoInputProps {
   onInsert: (event: string) => void;
@@ -26,7 +26,7 @@ const TodoInput = ({ onInsert }: TodoInputProps): JSX.Element => {
         placeholder="할 일을 입력하세요"
         value={value}
       />
-      <AddButton>Add</AddButton>
+      <TodoButton>Add</TodoButton>
     </form>
   );
 };
