@@ -1,11 +1,12 @@
 import React from 'react';
 
-interface AddButtonProps {
+interface TodoButtonProps {
   children: string;
+  onClick?: (e: any) => void;
 }
 
-const TodoButton = ({ children }: AddButtonProps): JSX.Element => {
-  return <button>{children}</button>;
+const TodoButton = ({ children, onClick }: TodoButtonProps): JSX.Element => {
+  return <button onClick={onClick}>{children}</button>;
 };
 
 export default TodoButton;
