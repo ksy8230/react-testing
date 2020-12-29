@@ -19,15 +19,25 @@
 - 요약
 
 ## 구현할 기능들
-- [ ] TODO 리스트에 사용될 리스트 테이블
-- [ ] TODO 리스트에 추가할 버튼
+- [x] TODO 리스트에 사용될 리스트 테이블
+- [x] TODO 리스트에 추가할 버튼
 - [ ] TODO 리스트를 삭제할 삭제 버튼
 - [ ] TODO 리스트를 수정할 수정 버튼
 - [ ] TODO 개별 리스트를 클릭하면 보이는 개별 리스트 페이지
 ## 유닛 테스트 시나리오
-1. TODO 리스트 유닛 테스트 시나리오
+1. TodoTable 유닛 테스트 시나리오
 - [x] 컴포넌트 TodoTable은 TodoTable을 렌더한다.
 - [x] 컴포넌트 TodoTable은 여러개의 리스트를 렌더한다.
+
+2. TodoInput 유닛 테스트 시나리오
+- [x] 컴포넌트 TodoInput은 TodoInput을 렌더한다.
+- [x] 컴포넌트 TodoInput은 값을 변경하면 인풋 안에 값이 변경된다.
+- [x] 컴포넌트 TodoInput은 input을 변경시키고 버튼을 클릭하면 onInsert 함수가 호출된다.
+
+3. AddButton 유닛 테스트 시나리오
+- [x] 컴포넌트 AddButton은 AddButton을 렌더한다.
+- [x] 컴포넌트 AddButton은 'Add' 텍스트를 렌더한다.
+
 
 ## E2E 테스트 시나리오
 -
